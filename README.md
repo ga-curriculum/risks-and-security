@@ -373,52 +373,6 @@ Bias in AI agents comes from three primary sources, each requiring a different m
 <img width="923" height="304" alt="image" src="https://git.generalassemb.ly/user-attachments/assets/f965d798-d861-43d1-8567-69fcc3263e86" />
 
 
-
-**Source 1: Training data bias**
-LLMs are trained on large volumes of text from the internet and other sources. That text reflects historical inequalities, stereotypes, and underrepresentation. The model learns these patterns — not intentionally, but as a consequence of what it was trained on.
-
-```
-Example: An LLM asked to write a job description for a "senior engineer"
-may default to language patterns associated with a specific demographic —
-not because it was instructed to, but because that's the pattern in its 
-training data.
-
-When this LLM powers a hiring screening agent, the bias is embedded 
-in every decision the agent makes — at scale, automatically, 
-without any individual human choosing to discriminate.
-```
-
-**Source 2: Prompt and design bias**
-The way the agent's task is defined — the categories it uses, the criteria it applies, the examples it is given — can introduce or amplify bias even without any bias in the underlying model.
-
-```
-Example: A loan qualification agent is given the instruction:
-"Applicants with a history of employment gaps should be flagged 
-for additional review."
-
-This criterion disproportionately affects people who took time 
-off for caregiving — a group that skews heavily female in most 
-labor markets. The instruction is neutral on its face;
-its impact is not.
-```
-
-**Source 3: Feedback loop bias**
-When agents learn from their own past decisions — through memory, fine-tuning, or reinforcement — biased early decisions can compound over time.
-
-```
-Example: A content recommendation agent consistently shows 
-certain types of content to certain user segments.
-
-Users in those segments engage more with what they're shown 
-(because that's all they see), which the system interprets as 
-evidence that those users prefer that content.
-
-The agent becomes more confident in its biased recommendations 
-over time — even though the pattern it learned was one it created.
-```
-
----
-
 ### Practical Strategies for Reducing Bias and Harm
 
 
