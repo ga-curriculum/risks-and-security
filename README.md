@@ -505,3 +505,8 @@ https://pages.git.generalassemb.ly/Build-AI-Agents/Risks-and-Security/
 - Perez & Ribeiro — *Ignore Previous Prompt: Attack Techniques for Language Models* (2022)
 - [Microsoft — Responsible AI Standard](https://blogs.microsoft.com/on-the-issues/2022/06/21/microsofts-framework-for-building-ai-systems-responsibly/)
 - Partnership on AI — *About ML: Annotation and Benchmarking on Understanding and Transparency of Machine Learning Lifecycles*
+
+
+---
+
+*General Assembly · Build AI Agents · BAA 16.0 · © 2026*
