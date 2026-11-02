@@ -479,7 +479,7 @@ Transparency doesn't undermine the agent's usefulness — it builds the foundati
 
 ## 5. Lab (60 min)
 
-https://pages.git.generalassemb.ly/Build-AI-Agents/Risks-and-Security/
+https://ga-curriculum.github.io/risks-and-security/
 
 ---
 
